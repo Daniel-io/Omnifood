@@ -56,6 +56,9 @@ SPACING SYSTEM (px)
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
 
 body {
   font-family: sans-serif;
@@ -64,8 +67,14 @@ body {
   color: #555;
 }
 
-
-
+.test {
+  max-width: 50rem;
+  background-color: red;
+  padding: 100px;
+  margin: 20px;
+  color: white;
+  font-size: 2rem;
+}
 
 
 
